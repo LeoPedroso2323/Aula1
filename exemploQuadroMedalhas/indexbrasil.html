@@ -19,20 +19,27 @@
       }
       body {
         font-family: Arial, sans-serif;
-        background-color: rgb(230, 230, 230);
+        background-color:rgba(5, 11, 1, 0.457);
       }
       th, td {
         border: 1px solid black;
         text-align: center;
         padding: 10px;
       }
-      th:nth-child(2) {
+      thead{
+        background-color: gray;
+    }
+
+    tbody{
+        background-color: white;
+    }
+      th:nth-child(3) {
         background-color: gold;
       }
-      th:nth-child(3) {
+      th:nth-child(4) {
         background-color: silver;
       }
-      th:nth-child(4) {
+      th:nth-child(5) {
         background-color: rgb(228, 122, 0);
       }
     </style>
@@ -50,38 +57,39 @@
     <table>
       <thead>
         <tr>
+          <th>Classificação Geral</th>
           <th>Ano</th>
           <th>Ouro</th>
           <th>Prata</th>
           <th>Bronze</th>
           <th>Total</th>
-          <th>Classificação Geral</th>
         </tr>
       </thead>
       <tbody>
         <tr>
+            <td>13°</td>
             <td>2016</td>
             <td>3</td>
             <td>7</td>
             <td>10</td>
             <td>20</td>
-            <td>13°</td>
         </tr>
         <tr>
+            <td>12°</td>
             <td>2020</td>
             <td>7</td>
             <td>6</td>
             <td>8</td>
             <td>21</td>
-            <td>12°</td>
+
         </tr>
         <tr>
+            <td>20°</td>
             <td>2024</td>
             <td>3</td>
             <td>5</td>
             <td>9</td>
             <td>17</td>
-            <td>20°</td>
         </tr>
       </tbody>
     </table>
