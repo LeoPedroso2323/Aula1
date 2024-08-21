@@ -25,7 +25,7 @@
     routes() {
     //Define uma rota GET para o caminho health
     this.express.get("/health/", (req,res) => {
-        res.send({ status: "OK",
+        res.send({ 
             nome:"Leonardo",
             idade:"16",
             Cpf:"47315464867"
